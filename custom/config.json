@@ -1,0 +1,11 @@
+{
+  "vocab_size": 50257,
+  "max_seq_len": 1024,
+  "d_model": 768,
+  "n_heads": 12,
+  "n_blocks": 12,
+  "pos_emb": "rope",
+  "activation": "silu",
+  "norm_type": "rmsnorm",
+  "norm_position": "post"
+}
