@@ -261,7 +261,7 @@ Prompt: `"Once upon a time in a land far away"`, generating **200 tokens**, **3 
 | **CPU** | **49.8** | ± 1.4 |
 
 > **Note:** MPS and CPU are running comparable speeds on this model size. MPS throughput is expected to scale more favorably on longer sequences and larger batch sizes due to GPU parallelism.  
-> No CUDA GPU was present in this environment.
+> Yet to be tested on CUDA.
 
 ### Running the benchmark yourself
 
