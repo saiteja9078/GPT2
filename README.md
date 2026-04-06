@@ -277,11 +277,3 @@ python benchmark.py --checkpoint checkpoints/step_150000_final.pt --max_tokens 5
 ```
 
 ---
-
-## Requirements
-
-```
-torch
-transformers
-tiktoken
-```
