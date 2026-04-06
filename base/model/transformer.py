@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from gpt2.model.attn import MultiHeadAttention
+from base.model.attn import MultiHeadAttention
 import torch.nn.functional as F
 
 class TransformerBlock(nn.Module):

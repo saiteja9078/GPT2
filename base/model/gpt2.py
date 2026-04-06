@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from gpt2.model.transformer import TransformerBlock
+from base.model.transformer import TransformerBlock
 import math
 
 class GPT2(nn.Module):
